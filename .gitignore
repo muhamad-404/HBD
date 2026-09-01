@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+
+# Build output (GitHub Actions builds this on deploy — do not commit)
+dist/
+dist-ssr/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables (never commit secrets)
+.env
+.env.*
+!.env.example
+
+# Vite / tooling cache
+.vite/
+*.local
+.cache/
+.eslintcache
+
+# Test / coverage
+coverage/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Cursor (local IDE state — not needed on GitHub)
+.cursor/
